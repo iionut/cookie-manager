@@ -1,4 +1,4 @@
-#README# 
+#README#
 
 Javascript library to easily manage cookies.
 
@@ -29,9 +29,9 @@ The lifetime can be set using one of 5 available flags appended to a number:
 
 or it can be set like an integer: 1800000 (30 minutes) or like "1800000".
 
-####Create a cookie#### 
+####Create a cookie####
 
-> manager.add({"name": "cookie name", "value": "cookie value", "lifetime":"15d", "path": "/admin", "domain": ".example.com", "secure": true}); 
+> manager.add({"name": "cookie name", "value": "cookie value", "lifetime":"15d", "path": "/admin", "domain": ".example.com", "secure": true});
 
 When adding a cookie the name of the cookie is mandatory. If no other parameters are set then the defaults are used.
 
